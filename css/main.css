@@ -221,7 +221,6 @@ header{
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
 }
 
-
 .projectimg {
   width: 100%;
   height: auto;
@@ -239,7 +238,34 @@ header{
   margin-bottom: 100px;
   padding-top: 10px; 
   padding-bottom: 50px;
-    
+}
+
+.publications-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr ;
+  width: 100vw; 
+  grid-column-gap: 20px;
+  grid-template-rows: 50px 5px 5px 40px 10px auto auto 100px 300px 100px auto 50px 50px 50px;
+}
+
+.published {
+  grid-column: 1 / span 1;
+  grid-row: 5 / span 6;
+}
+
+.tutorials {
+  grid-column: 2 / span 1;
+  grid-row: 5 / span 6;
+}
+
+.workshop {
+  grid-column: 2 / span 1;
+  grid-row: 7 / span 5;
+}
+
+.technical {
+  grid-column: 2 / span 1;
+  grid-row: 8 / span 4;
 }
 
 footer{
