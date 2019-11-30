@@ -455,7 +455,6 @@ footer{
     padding-bottom: 10px;
     padding-right: 5%;
     padding-left: 5%;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
 }
 
 .student-p p {
@@ -469,31 +468,57 @@ footer{
 
 .resume-content{
     grid-column: 2 / span 1;
-    background: white;
     color: black;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 5%;
     padding-left: 5%;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
 }
-
+.resume-content h2{
+    background: white;
+}
 .resume-content p {
     padding: 15px;
+    font-size: 14px;
 }
 .resume-content2{
     grid-column: 2 / span 1;
-    background: white;
     color: black;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 5%;
     padding-left: 5%;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
 }
-
-.resume-content p {
+.resume-content2 p {
     padding: 15px;
+    font-size: 14px;
+}
+.resume-content2 h2 {
+    background: white;
+}
+.resume-content3{
+    grid-column: 2 / span 1;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.resume-content3 h2{
+  background: white;
+}
+.resume-content3 h3{
+  font-size: 16px;
+}
+.resume-content3 p{
+    padding: 15px;
+    font-size: 14px;
+
+}
+.resume-content3 ul{
+    padding: 25px;
+    font-size: 14px;
+
 }
 @media screen and (prefers-reduced-motion: reduce){
   html{
