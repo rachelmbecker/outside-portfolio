@@ -467,7 +467,7 @@ footer{
 }
 
 .resume-content{
-    grid-column: 2 / span 1;
+  grid-column: 2 / span 1;
     color: black;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -476,6 +476,8 @@ footer{
 }
 .resume-content h2{
     background: white;
+    padding: 15px;
+
 }
 .resume-content p {
     padding: 15px;
@@ -495,6 +497,7 @@ footer{
 }
 .resume-content2 h2 {
     background: white;
+    padding: 15px;
 }
 .resume-content3{
     grid-column: 2 / span 1;
@@ -506,9 +509,12 @@ footer{
 }
 .resume-content3 h2{
   background: white;
+  padding: 15px;
 }
 .resume-content3 h3{
   font-size: 16px;
+  padding: 15px;
+
 }
 .resume-content3 p{
     padding: 15px;
