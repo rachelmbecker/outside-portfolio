@@ -277,7 +277,7 @@ header{
     padding-bottom: 50px;
 }
 
-.index-footer{
+footer{
     background: #8E8D8A;
     color: black;
     width: 100%;
@@ -290,19 +290,13 @@ header{
 }
 
 .nav-container{
-/*     display: grid;
-    grid-template-rows: 40px 50px 40px;
-    grid-template-columns: 1fr 4fr; */
-    
     display: grid;
-    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
-    grid-row-gap: 0px;
-    grid-template-rows: 40px 50px 50px;
-    width: 100vw;
+    grid-template-rows: 40px 50px 40px;
+    grid-template-columns: 1fr 4fr;
 }
 
 .back {
-    grid-column: 1/span 7;
+    grid-column: 1/span 2;
     align-items: center;
     text-align: center;
     grid-row: 1/span 3;
@@ -314,20 +308,12 @@ header{
 }
 
 .all-nav{
-    /* grid-column: 2/span 1;
+    grid-column: 2/span 1;
     align-items: center;
     text-align: center;
     grid-row: 1/span 3;
     background: transparent;
     padding-top: 25px;
-    margin-bottom: 5px;
-    padding-left: 5%; */
-    
-    grid-column: 4/span 4;
-    align-items: center;
-    text-align: center;
-    grid-row: 2/span 1;
-    background: transparent;
     margin-bottom: 5px;
     padding-left: 5%;
 }
@@ -342,14 +328,13 @@ header{
     padding-top: 0px;
     padding-left: 30px;
     padding-bottom: 30px;
-
 }
 
 .projects-container {
     display: grid;
     grid-template-columns: 0.8fr 1fr 1fr 1fr 1fr 1fr 0.8fr;
     grid-row-gap: 25px;
-    grid-template-rows: .7fr .7fr 1fr .7fr .35fr .1fr;
+    grid-template-rows: .7fr .7fr 1fr .7fr .35fr;
     width: 100vw;
 }
 
