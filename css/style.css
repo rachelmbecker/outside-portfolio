@@ -222,7 +222,6 @@ header{
     color: #e98074;
     text-shadow: 2px 2px #eaeaea;
     padding-left: 15px;
-
 }
 
 .content2 h3{
@@ -303,7 +302,7 @@ header{
 }
 
 .back {
-    grid-column: 1/span 2;
+    grid-column: 1/span 7;
     align-items: center;
     text-align: center;
     grid-row: 1/span 3;
