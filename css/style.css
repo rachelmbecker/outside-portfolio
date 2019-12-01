@@ -467,28 +467,33 @@ footer{
     grid-template-columns: .5fr 3fr .5fr;
     grid-template-rows: 1fr;
 }
-.published{
+.inner-pub-content{
+  display:grid;
+  grid-template-rows: 4fr;
+}
+.inner-pub-content > div{
+  grid-row: 1 /span 1;
+}
+.publication-content{
   grid-column: 2 / span 1;
   color: black;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.published ul{
+.published ol{
   padding-left: 50px;
   font-size: 14px;
 }
-.tutorials{
-  grid-column: 2 / span 1;
+.tutorials-workshop{
+  grid-column: 3 / span 1;
   color: black;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.tutorials ul{
+.tutorials-workshop ol{
   padding-left: 50px;
   font-size: 14px;
 }
-
-
 
 
 
