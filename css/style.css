@@ -103,6 +103,7 @@ nav a:hover {
     border-radius: 5px;
     border: 2px solid #eeeeee;
     margin-top: 20px;
+    max-height: 350px;
 }
 
 *:focus {
@@ -467,7 +468,7 @@ footer{
 }
 
 .resume-content{
-  grid-column: 2 / span 1;
+    grid-column: 2 / span 1;
     color: black;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -476,11 +477,11 @@ footer{
 }
 .resume-content h2{
     background: white;
-    padding: 15px;
+    padding: 10px;
 
 }
 .resume-content p {
-    padding: 15px;
+    padding: 10px;
     font-size: 14px;
 }
 .resume-content2{
@@ -492,12 +493,12 @@ footer{
     padding-left: 5%;
 }
 .resume-content2 p {
-    padding: 15px;
+    padding: 10px;
     font-size: 14px;
 }
 .resume-content2 h2 {
     background: white;
-    padding: 15px;
+    padding: 10px;
 }
 .resume-content3{
     grid-column: 2 / span 1;
@@ -509,22 +510,48 @@ footer{
 }
 .resume-content3 h2{
   background: white;
-  padding: 15px;
+  padding: 10px;
 }
 .resume-content3 h3{
   font-size: 16px;
-  padding: 15px;
+  padding: 10px;
 
 }
 .resume-content3 p{
-    padding: 15px;
+    padding: 10px;
     font-size: 14px;
 
 }
 .resume-content3 ul{
-    padding: 25px;
+    padding-left: 50px;
     font-size: 14px;
 
+}
+.resume-content4{
+    grid-column: 2 / span 1;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.resume-content4 h2{
+  background: white;
+  padding: 10px;
+}
+.resume-content4 h3{
+  font-size: 16px;
+  padding: 10px;
+
+}
+.resume-content4 p{
+    padding: 10px;
+    font-size: 14px;
+
+}
+.resume-content4 ul{
+    padding-left: 50px;
+    font-size: 14px;
 }
 @media screen and (prefers-reduced-motion: reduce){
   html{
