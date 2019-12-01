@@ -10,11 +10,11 @@ body {
     font-family: 'Lato', sans-serif;
     line-height: 25px;
     color: #000000;
-    background-color: antiquewhite;
+    background-color: #EAE7DC;
 }
 
 b {
-    color: #F4D58D;
+    color: #E85A4F;
 }
 
 h1 {
@@ -200,6 +200,7 @@ header{
     font-size: 40px;
     margin-bottom: 0px;
     text-shadow: 2px 2px #eaeaea;
+    color: #e98074;
 }
 
 .content2 {
@@ -216,10 +217,11 @@ header{
 .content2 h2{
     font-size: 40px;
     margin-bottom: 0px;
-    background: #F4D58D;
-    color: #FFFFFF;
+    background: #FFFFFF;
+    color: #e98074;
     text-shadow: 2px 2px #eaeaea;
     padding-left: 15px;
+    
 }
 
 .content2 h3{
@@ -276,7 +278,7 @@ header{
 }
 
 footer{
-    background: #F4D58D;
+    background: #8E8D8A;
     color: black;
     width: 100%;
     text-align: center;
