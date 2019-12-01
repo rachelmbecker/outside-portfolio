@@ -462,6 +462,37 @@ footer{
 .student-p p {
     padding: 15px;
 }
+.publications-container {
+    display:grid;
+    grid-template-columns: .5fr 3fr .5fr;
+    grid-template-rows: 1fr;
+}
+.published{
+  grid-column: 2 / span 1;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.published ul{
+  padding-left: 50px;
+  font-size: 14px;
+}
+.tutorials{
+  grid-column: 2 / span 1;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.tutorials ul{
+  padding-left: 50px;
+  font-size: 14px;
+}
+
+
+
+
+
+
 .resume-container {
     display:grid;
     grid-template-columns: .5fr 3fr .5fr;
@@ -517,6 +548,7 @@ footer{
 .resume-content3 h3{
   font-size: 16px;
   padding: 10px;
+
 }
 .resume-content3 p{
     padding: 10px;
