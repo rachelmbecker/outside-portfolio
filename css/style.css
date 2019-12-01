@@ -291,9 +291,15 @@ header{
 }
 
 .nav-container{
-    display: grid;
+/*     display: grid;
     grid-template-rows: 40px 50px 40px;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 4fr; */
+    
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
+    grid-row-gap: 0px;
+    grid-template-rows: 40px 50px 50px;
+    width: 100vw;
 }
 
 .back {
@@ -309,12 +315,20 @@ header{
 }
 
 .all-nav{
-    grid-column: 2/span 1;
+    /* grid-column: 2/span 1;
     align-items: center;
     text-align: center;
     grid-row: 1/span 3;
     background: transparent;
     padding-top: 25px;
+    margin-bottom: 5px;
+    padding-left: 5%; */
+    
+    grid-column: 4/span 4;
+    align-items: center;
+    text-align: center;
+    grid-row: 2/span 1;
+    background: transparent;
     margin-bottom: 5px;
     padding-left: 5%;
 }
