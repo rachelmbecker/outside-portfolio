@@ -334,9 +334,9 @@ footer{
 
 .projects-container {
     display: grid;
-    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
+    grid-template-columns: 0.8fr 1fr 1fr 1fr 1fr 1fr 0.8fr;
     grid-row-gap: 25px;
-    grid-template-rows: .7fr .7fr 1fr .7fr .35fr .0001fr;
+    grid-template-rows: .7fr .7fr 1fr .7fr .35fr .00001fr;
     width: 100vw;
 }
 
