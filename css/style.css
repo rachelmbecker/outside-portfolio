@@ -103,6 +103,7 @@ nav a:hover {
     border-radius: 5px;
     border: 2px solid #eeeeee;
     margin-top: 20px;
+    max-height: 350px;
 }
 
 *:focus {
