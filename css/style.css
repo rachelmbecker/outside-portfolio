@@ -278,13 +278,13 @@ header{
 }
 
 footer{
-    background: #8E8D8A;
+    background: white;
     color: black;
     width: 100%;
     text-align: center;
     grid-column: 1/span 7;
     grid-row: 7/span 1;
-    height: 60px;
+    height: 40px;
     bottom: 0%;
     padding-bottom: 5%;
 }
