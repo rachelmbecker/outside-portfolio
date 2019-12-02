@@ -121,7 +121,7 @@ nav a:hover {
     display: grid;
     grid-template-columns: .5fr 1fr 1fr .5fr;
     grid-row-gap: 15px;
-    grid-template-rows: .4fr .4fr .7fr .05fr;
+    grid-template-rows: .8fr .4fr .05fr;
     grid-column-gap: 15px;
     width: 100vw; 
 }
@@ -137,20 +137,14 @@ nav a:hover {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* .content p{
-    color: black;
-    line-height: 40px;
-    font-size: 16px;
-} */
-
-.content h2 {
+/* .content h2 {
     font-size: 40px;
     margin-bottom: 0px;
     text-shadow: 2px 2px #eaeaea;
     color: #e98074;
-}
+} */
 
-.content2 {
+/* .content2 {
     grid-column: 2/span 2;
     align-items: center;
     grid-row: 3;
@@ -160,9 +154,9 @@ nav a:hover {
     padding-top: 10px;
     padding-bottom: 50px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
-}
+} */
 
-.content2 h2{
+/* .content2 h2{
     font-size: 40px;
     margin-bottom: 0px;
     background: #FFFFFF;
@@ -177,7 +171,7 @@ nav a:hover {
     color: #000000;
     text-shadow: 2px 2px #eaeaea;
     padding-left: 15px;
-}
+} */
 
 .index-head2 {
     grid-column: 1 / span 4;
@@ -190,7 +184,7 @@ nav a:hover {
     background-size: cover;
 }
 
-.iproject1 .iproject2 .iproject3 .iproject4 {
+/* .iproject1 .iproject2 .iproject3 .iproject4 {
     width: 44%;
     height: 300px;
     padding: 15px;
@@ -209,7 +203,7 @@ nav a:hover {
     max-height: 250px;
     max-width: 500px;
     overflow: hidden;
-}
+} */
 
 .index-footer {
     grid-row: 4;
