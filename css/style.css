@@ -136,6 +136,7 @@ nav a:hover {
 
 .content{
     grid-column: 2/span 2;
+    grid-row: 2;
     align-items: center;
     background: white;
     color: black;
