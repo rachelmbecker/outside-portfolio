@@ -10,18 +10,11 @@ body {
     line-height: 25px;
     color: #000000;
     background-color: #EAE7DC;
-    min-height: 100%;
-    position: relative;
 }
 footer {
-    background: #2f2f2f;
-    color: white;
+    background: white;
+    color: black;
     text-align: center;
-    border-top: 2px solid white;
-    position: absolute;
-    width: 100%;
-    display: block;
-    bottom: 0;
 }
 b {
     color: #E85A4F;
@@ -199,7 +192,7 @@ nav a{
     text-align: justify;
 }
 .student-p p {
-
+    
     padding: 15px;
 }
 .student-p h2 {
@@ -274,8 +267,8 @@ nav a{
     }
 
     .logo {
-        width: 400px;
-        
+        width: 150px;
+        padding: 20px;
     }
 
 
@@ -303,7 +296,7 @@ nav a{
         display: grid;
         grid-template-columns: .5fr 1fr 1fr .5fr;
         grid-row-gap: 15px;
-        grid-template-rows: .8fr .1fr .4fr .05fr;
+        grid-template-rows: .8fr .4fr .05fr;
         grid-column-gap: 15px;
         width: 100vw;
     }
@@ -333,9 +326,38 @@ nav a{
         text-align:center;
     }
 
+
+    /* .content2 {
+        grid-column: 2/span 2;
+        align-items: center;
+        grid-row: 3;
+        background: white;
+        color: black;
+        margin-bottom: 100px;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+    } */
+
+    /* .content2 h2{
+        font-size: 40px;
+        margin-bottom: 0px;
+        background: #FFFFFF;
+        color: #e98074;
+        text-shadow: 2px 2px #eaeaea;
+        padding-left: 15px;
+    }
+    .content2 h3{
+        font-size: 20px;
+        margin-bottom: 0px;
+        color: #000000;
+        text-shadow: 2px 2px #eaeaea;
+        padding-left: 15px;
+    } */
+
     .index-head2 {
         grid-column: 1 / span 4;
-        grid-row: 1/span 2;
+        grid-row: 1;
         background: #FFFFFF;
         background-attachment: fixed;
         background-image: url('../images/michigan.png');
@@ -344,10 +366,45 @@ nav a{
         background-size: cover;
     }
 
+    /* .iproject1 .iproject2 .iproject3 .iproject4 {
+        width: 44%;
+        height: 300px;
+        padding: 15px;
+        margin: 10px;
+        background: white;
+        color: black;
+        border: 1px #eeeeee solid;
+    }
+    .projects:hover{
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+    }
+    .projectimg {
+        width: 100%;
+        max-height: 250px;
+        max-width: 500px;
+        overflow: hidden;
+    } */
+
     .index-footer {
         grid-row: 4;
         grid-column: 1 / span 4;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     /* .img {
         width: 25%;
@@ -364,7 +421,7 @@ nav a{
         margin-left: auto;
         margin-right: auto;
     } */
-    /*
+    /* 
     *:focus {
         border: 1px solid #2a2a2a;
     }
@@ -489,7 +546,6 @@ nav a{
         padding-top: 25px;
         margin-bottom: 5px;
         padding-left: 5%;
-        border-bottom: 2px solid white;
     }
 
     .all-header {
@@ -504,17 +560,12 @@ nav a{
         padding-bottom: 30px;
     }
 
-
-
-    /* PROJECTS */
-
     .projects-container {
         display: grid;
         grid-template-columns: 0.8fr 1fr 1fr 1fr 1fr 1fr 0.8fr;
         grid-row-gap: 25px;
         grid-template-rows: .7fr .7fr 1fr .7fr .35fr .08fr;
         width: 100vw;
-
     }
 
     .projects-footer {
@@ -527,7 +578,6 @@ nav a{
         grid-row: 1 / span 1;
         padding-bottom: 15px;
         border-bottom: 2px dotted black;
-        margin-top: 20px;
     }
 
     .p1-title {
@@ -541,13 +591,10 @@ nav a{
         justify-content: center;
         align-items: center;
         padding-bottom: 15px;
-
-
     }
 
     .p1-p {
         text-align: justify;
-
     }
 
     .project2 {
@@ -645,7 +692,6 @@ nav a{
     .projectimg1 {
         width: 450px;
         height: 300px;
-
     }
 
     .projectimg2 {
@@ -696,16 +742,12 @@ nav a{
             grid-template-columns: .18fr 1fr .18fr;
             grid-template-rows: 1.1fr .17fr .3fr .1fr .1fr .05fr;
     /*         grid-column-gap: 20px; */
-
         }
 
         .published {
             grid-column: 2;
             grid-row:1;
             border-bottom: 2px dotted black;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            padding-bottom: 20px;
         }
 
         .published ol {
@@ -727,8 +769,6 @@ nav a{
             grid-column: 2;
             grid-row: 2;
             border-bottom: 2px dotted black;
-            margin-bottom: 20px;
-            padding-bottom: 20px;
         }
 
         .tutorials ol {
@@ -749,8 +789,6 @@ nav a{
             grid-column: 2;
             grid-row:3;
             border-bottom: 2px dotted black;
-            margin-bottom: 20px;
-            padding-bottom: 20px;
         }
         .workshops ol {
             padding-left: 30px;
@@ -770,8 +808,6 @@ nav a{
             grid-column: 2;
             grid-row:4;
             border-bottom: 2px dotted black;
-            margin-bottom: 20px;
-            padding-bottom: 20px;
         }
         .technical ol {
             padding-left: 30px;
@@ -791,8 +827,6 @@ nav a{
             grid-column: 2;
             grid-row:5;
             border-bottom: 2px dotted black;
-            margin-bottom: 20px;
-            padding-bottom: 20px;
         }
         .progress ol {
             padding-left: 30px;
@@ -809,7 +843,7 @@ nav a{
         .pub-index {
             grid-row: 2;
         }
-    /*
+    /* 
     .reports{
       grid-column: 1 / span 2;
     }
