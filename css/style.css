@@ -416,13 +416,14 @@ nav a:hover {
     grid-column: 2 / span 1;
     /* background: white; */
     color: black;
-    padding-top: 10px;
-    padding-bottom: 10px;
+/*     padding-top: 10px;
+    padding-bottom: 10px; */
 /*     padding-right: 5%;
     padding-left: 5%; */
 }
 .student-p p {
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .student-p h2 {
     font-size: 24px;
