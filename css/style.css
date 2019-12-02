@@ -274,8 +274,8 @@ nav a{
     }
 
     .logo {
-        width: 150px;
-        padding: 20px;
+        width: 350px;
+        
     }
 
 
@@ -432,7 +432,6 @@ nav a{
     *:focus {
         border: 1px solid #2a2a2a;
     }
-
     .index-container {
         display: grid;
         grid-template-columns: .5fr 1fr 1fr .5fr;
@@ -442,7 +441,6 @@ nav a{
         grid-column-gap: 15px;
         width: 100vw;
     }
-
     .content{
         grid-column: 2/span 2;
         grid-row: 2;
@@ -455,11 +453,9 @@ nav a{
         padding-bottom: 50px;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
     }
-
     .content p {
         padding-bottom:15px;
     }
-
     .content h2 {
         font-size: 40px;
         padding-top: 20px;
@@ -486,7 +482,6 @@ nav a{
         text-shadow: 2px 2px #eaeaea;
         padding-left: 15px;
     }
-
     .content2 h3{
         font-size: 20px;
         margin-bottom: 0px;
@@ -515,11 +510,9 @@ nav a{
         color: black;
         border: 1px #eeeeee solid;
     }
-
     .projects:hover{
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
     }
-
     .projectimg {
         width: 100%;
         max-height: 250px;
