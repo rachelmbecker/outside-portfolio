@@ -106,122 +106,122 @@ nav a:hover {
 
 
 .img {
-        width: 25%;
-        height: auto;
-        /* margin-right: 30px; */
-        border: 2px white solid;
-        border-radius: 5px;
-        border: 2px solid #eeeeee;
-        margin-top: 10px;
-        max-height: 350px;
-        max-width: 250px;
-        align-content: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+    width: 25%;
+    height: auto;
+    /* margin-right: 30px; */
+    border: 2px white solid;
+    border-radius: 5px;
+    border: 2px solid #eeeeee;
+    margin-top: 10px;
+    max-height: 350px;
+    max-width: 250px;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-    *:focus {
-        border: 1px solid #2a2a2a;
-    }
+*:focus {
+    border: 1px solid #2a2a2a;
+}
 
-    .index-container {
-        display: grid;
-        grid-template-columns: .5fr 1fr 1fr .5fr;
-        grid-row-gap: 15px;
-        grid-template-rows: .8fr .4fr .05fr;
-        grid-column-gap: 15px;
-        width: 100vw;
-    }
+.index-container {
+    display: grid;
+    grid-template-columns: .5fr 1fr 1fr .5fr;
+    grid-row-gap: 15px;
+    grid-template-rows: .8fr .4fr .05fr;
+    grid-column-gap: 15px;
+    width: 100vw;
+}
 
-    .content{
-        grid-column: 2/span 2;
-        align-items: center;
-        background: white;
-        color: black;
-        text-align: justify;
-        padding-right: 5%;
-        padding-left: 5%;
-        padding-bottom: 50px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
-    }
+.content{
+    grid-column: 2/span 2;
+    align-items: center;
+    background: white;
+    color: black;
+    text-align: justify;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 50px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+}
 
-    .stuff {
-        text-align: center;
-    }
-
-
-    .content h2 {
-        font-size: 40px;
-        padding-top: 20px;
-        padding-bottom: 0px;
-        color: black;
-        text-align:center;
-    }
+.stuff {
+    text-align: center;
+}
 
 
-    /* .content2 {
-        grid-column: 2/span 2;
-        align-items: center;
-        grid-row: 3;
-        background: white;
-        color: black;
-        margin-bottom: 100px;
-        padding-top: 10px;
-        padding-bottom: 50px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
-    } */
+.content h2 {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    color: black;
+    text-align:center;
+}
 
-    /* .content2 h2{
-        font-size: 40px;
-        margin-bottom: 0px;
-        background: #FFFFFF;
-        color: #e98074;
-        text-shadow: 2px 2px #eaeaea;
-        padding-left: 15px;
-    }
-    .content2 h3{
-        font-size: 20px;
-        margin-bottom: 0px;
-        color: #000000;
-        text-shadow: 2px 2px #eaeaea;
-        padding-left: 15px;
-    } */
 
-    .index-head2 {
-        grid-column: 1 / span 4;
-        grid-row: 1;
-        background: #FFFFFF;
-        background-attachment: fixed;
-        background-image: url('../images/michigan.png');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+/* .content2 {
+    grid-column: 2/span 2;
+    align-items: center;
+    grid-row: 3;
+    background: white;
+    color: black;
+    margin-bottom: 100px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+} */
 
-    /* .iproject1 .iproject2 .iproject3 .iproject4 {
-        width: 44%;
-        height: 300px;
-        padding: 15px;
-        margin: 10px;
-        background: white;
-        color: black;
-        border: 1px #eeeeee solid;
-    }
-    .projects:hover{
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
-    }
-    .projectimg {
-        width: 100%;
-        max-height: 250px;
-        max-width: 500px;
-        overflow: hidden;
-    } */
+/* .content2 h2{
+    font-size: 40px;
+    margin-bottom: 0px;
+    background: #FFFFFF;
+    color: #e98074;
+    text-shadow: 2px 2px #eaeaea;
+    padding-left: 15px;
+}
+.content2 h3{
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: #000000;
+    text-shadow: 2px 2px #eaeaea;
+    padding-left: 15px;
+} */
 
-    .index-footer {
-        grid-row: 4;
-        grid-column: 1 / span 4;
-    }
+.index-head2 {
+    grid-column: 1 / span 4;
+    grid-row: 1;
+    background: #FFFFFF;
+    background-attachment: fixed;
+    background-image: url('../images/michigan.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .iproject1 .iproject2 .iproject3 .iproject4 {
+    width: 44%;
+    height: 300px;
+    padding: 15px;
+    margin: 10px;
+    background: white;
+    color: black;
+    border: 1px #eeeeee solid;
+}
+.projects:hover{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+}
+.projectimg {
+    width: 100%;
+    max-height: 250px;
+    max-width: 500px;
+    overflow: hidden;
+} */
+
+.index-footer {
+    grid-row: 4;
+    grid-column: 1 / span 4;
+}
 
 
 
@@ -575,7 +575,7 @@ nav a:hover {
 }
 .student-p h2 {
     font-size: 24px;
-    color: #E85A4F;
+    color: black;
 }
 .publications-container {
         display: grid;
