@@ -236,11 +236,11 @@ header{
     grid-column: 1/span 7;
     grid-row: 1/span 4;
     background: #FFFFFF;
-    background-attachment: fixed; /* Parallax effect */
-    background-image: url('../images/michigan.png');      /* Your code here - Link to header.jpg in the images folder */
-    background-position: center;  /* Parallax effect */
-    background-repeat: no-repeat; /* Parallax effect */
-    background-size: cover;       /* Parallax effect */
+    background-attachment: fixed;
+    background-image: url('../images/michigan.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .projects {
@@ -492,6 +492,10 @@ footer{
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.publication-content h2{
+    background: white;
+    padding: 10px;
+}
 .published ol{
   padding-left: 50px;
   font-size: 14px;
@@ -499,16 +503,11 @@ footer{
 .tutorials-workshop-reports{
   grid-column: 3 / span 1;
   color: black;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 .tutorials-workshop-reports ol{
   padding-left: 50px;
   font-size: 14px;
 }
-
-
-
 
 .resume-container {
     display:grid;
