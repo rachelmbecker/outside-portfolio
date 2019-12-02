@@ -268,19 +268,21 @@ nav a:hover {
 .project1 {
     grid-column: 2 / span 5;
     grid-row: 1 / span 1;
+    padding-bottom: 15px;
+    border-bottom: 2px dotted black; 
 }
 
 .p1-title {
     text-align: center;
-    font-size: 40px;
-    margin-bottom: 0px;
+    font-size: 24px;
+    color: #E85A4F;
 }
 
 .p1-image {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding-bottom: 15px;
 }
 
 .p1-p {
@@ -290,17 +292,21 @@ nav a:hover {
 .project2 {
     grid-column: 2 / span 5;
     grid-row: 2 / span 1;
+    padding-bottom: 15px;
+    border-bottom: 2px dotted black;
 }
 
 .p2-title {
     text-align: center;
+    font-size: 24px;
+    color: #E85A4F;
 }
 
 .p2-image {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding-bottom: 15px;
 }
 .p2-p {
     text-align: justify;
@@ -309,17 +315,21 @@ nav a:hover {
 .project3 {
     grid-column: 2 / span 5;
     grid-row: 3 / span 1;
+    padding-bottom: 15px;
+    border-bottom: 2px dotted black;
 }
 
 .p3-title {
     text-align: center;
+    font-size: 24px;
+    color: #E85A4F;
 }
 
 .p3-image {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding-bottom: 15px;
 }
 .p3-p {
     text-align: justify;
@@ -328,17 +338,21 @@ nav a:hover {
 .project4 {
     grid-column: 2/ span 5;
     grid-row: 4 / span 1;
+    padding-bottom: 15px;
+    border-bottom: 2px dotted black;
 }
 
 .p4-title {
     text-align: center;
+    font-size: 24px;
+    color: #E85A4F;
 }
 
 .p4-image {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding-bottom: 15px;
 }
 .p4-p {
     text-align: justify;
@@ -347,17 +361,21 @@ nav a:hover {
 .project5 {
     grid-column: 2/ span 5;
     grid-row: 5 / span 1;
+    padding-bottom: 15px;
+    border-bottom: 2px dotted black;
 }
 
 .p5-title {
     text-align: center;
+    font-size: 24px;
+    color: #E85A4F;
 }
 
 .p5-image {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding-bottom: 15px;
 }
 .p5-p {
     text-align: justify;
