@@ -143,6 +143,10 @@ nav a:hover {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
 }
 
+.content p {
+    padding-bottom:15px;
+}
+
 .content h2 {
     font-size: 40px;
     padding-top: 20px;
