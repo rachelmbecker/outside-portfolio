@@ -347,8 +347,6 @@ footer{
     text-align: center;
     font-size: 40px;
     margin-bottom: 0px;
-    text-shadow: 2px 2px #eaeaea;
-    color: #e98074;
 }
 
 .p1-image {
@@ -365,10 +363,6 @@ footer{
 
 .p2-title {
     text-align: center;
-    font-size: 40px;
-    margin-bottom: 0px;
-    text-shadow: 2px 2px #eaeaea;
-    color: #e98074;
 }
 
 .p2-image {
@@ -385,10 +379,6 @@ footer{
 
 .p3-title {
     text-align: center;
-    font-size: 40px;
-    margin-bottom: 0px;
-    text-shadow: 2px 2px #eaeaea;
-    color: #e98074;
 }
 
 .p3-image {
@@ -405,10 +395,6 @@ footer{
 
 .p4-title {
     text-align: center;
-    font-size: 40px;
-    margin-bottom: 0px;
-    text-shadow: 2px 2px #eaeaea;
-    color: #e98074;
 }
 
 .p4-image {
@@ -425,10 +411,6 @@ footer{
 
 .p5-title {
     text-align: center;
-    font-size: 40px;
-    margin-bottom: 0px;
-    text-shadow: 2px 2px #eaeaea;
-    color: #e98074;
 }
 
 .p5-image {
@@ -495,16 +477,15 @@ footer{
 }
 .publications-container {
     display:grid;
-    grid-template-columns: .5fr 3fr .5fr;
+    grid-template-columns: .5fr 4fr .5fr;
     grid-template-rows: 1fr;
 }
 .inner-pub-content{
   display:grid;
-  grid-template-rows: 4fr;
   grid-gap: 10px;
 }
 .inner-pub-content > div{
-  grid-row: 1 /span 1;
+  grid-row: 1 /span 2;
 }
 .publication-content{
   grid-column: 2 / span 1;
