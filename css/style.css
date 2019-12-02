@@ -501,14 +501,17 @@ footer{
   padding-left: 50px;
   font-size: 14px;
 }
-.tutorials-workshop-reports{
-  color: black;
-}
 .tutorials-workshop-reports ol{
   padding-left: 50px;
   font-size: 14px;
 }
-
+.reports{
+  grid-column: 1 / span 2;
+}
+.reports ol{
+  padding-left: 50px;
+  font-size: 14px;
+}
 .resume-container {
     display:grid;
     grid-template-columns: .5fr 3fr .5fr;
