@@ -235,6 +235,10 @@ nav a{
 }
 
 
+ .student-footer {
+        bottom: 0%;
+        position: fixed;
+    }
 
  .publications-container {
             display: grid;
