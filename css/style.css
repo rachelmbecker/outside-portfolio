@@ -10,12 +10,18 @@ body {
     line-height: 25px;
     color: #000000;
     background-color: #EAE7DC;
+    min-height: 100%;
+    position: relative;
 }
 footer {
     background: #2f2f2f;
     color: white;
     text-align: center;
     border-top: 2px solid white;
+    position: absolute;
+    width: 100%;
+    display: block;
+    bottom: 0;
 }
 b {
     color: #E85A4F;
@@ -193,7 +199,7 @@ nav a{
     text-align: justify;
 }
 .student-p p {
-    
+
     padding: 15px;
 }
 .student-p h2 {
@@ -422,7 +428,7 @@ nav a{
         margin-left: auto;
         margin-right: auto;
     } */
-    /* 
+    /*
     *:focus {
         border: 1px solid #2a2a2a;
     }
@@ -569,8 +575,8 @@ nav a{
         padding-bottom: 30px;
     }
 
-    
-    
+
+
     /* PROJECTS */
 
     .projects-container {
@@ -579,7 +585,7 @@ nav a{
         grid-row-gap: 25px;
         grid-template-rows: .7fr .7fr 1fr .7fr .35fr .08fr;
         width: 100vw;
-        
+
     }
 
     .projects-footer {
@@ -606,13 +612,13 @@ nav a{
         justify-content: center;
         align-items: center;
         padding-bottom: 15px;
-        
-            
+
+
     }
 
     .p1-p {
         text-align: justify;
-        
+
     }
 
     .project2 {
@@ -710,7 +716,7 @@ nav a{
     .projectimg1 {
         width: 450px;
         height: 300px;
-        
+
     }
 
     .projectimg2 {
@@ -761,7 +767,7 @@ nav a{
             grid-template-columns: .18fr 1fr .18fr;
             grid-template-rows: 1.1fr .17fr .3fr .1fr .1fr .05fr;
     /*         grid-column-gap: 20px; */
-        
+
         }
 
         .published {
@@ -874,7 +880,7 @@ nav a{
         .pub-index {
             grid-row: 2;
         }
-    /* 
+    /*
     .reports{
       grid-column: 1 / span 2;
     }
