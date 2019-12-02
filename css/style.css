@@ -278,13 +278,13 @@ header{
 }
 
 footer{
-    background: #8E8D8A;
+    background: white;
     color: black;
     width: 100%;
     text-align: center;
     grid-column: 1/span 7;
     grid-row: 7/span 1;
-    height: 60px;
+    height: 25px;
     bottom: 0%;
     padding-bottom: 5%;
 }
@@ -345,6 +345,8 @@ footer{
 
 .p1-title {
     text-align: center;
+    font-size: 30px;
+    color: #E85A4F;
 }
 
 .p1-image {
@@ -361,6 +363,8 @@ footer{
 
 .p2-title {
     text-align: center;
+    font-size: 30px;
+    color: #E85A4F;
 }
 
 .p2-image {
@@ -377,6 +381,8 @@ footer{
 
 .p3-title {
     text-align: center;
+    font-size: 30px;
+    color: #E85A4F;
 }
 
 .p3-image {
@@ -393,6 +399,8 @@ footer{
 
 .p4-title {
     text-align: center;
+    font-size: 30px;
+    color: #E85A4F;
 }
 
 .p4-image {
@@ -409,6 +417,8 @@ footer{
 
 .p5-title {
     text-align: center;
+    font-size: 30px;
+    color: #E85A4F;
 }
 
 .p5-image {
