@@ -418,8 +418,8 @@ nav a:hover {
     color: black;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 5%;
-    padding-left: 5%;
+/*     padding-right: 5%;
+    padding-left: 5%; */
 }
 .student-p p {
     padding: 15px;
