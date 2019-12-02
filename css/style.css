@@ -131,6 +131,7 @@ nav a:hover {
     align-items: center;
     background: white;
     color: black;
+    text-align: justify;
     padding-right: 5%;
     padding-left: 5%;
     padding-bottom: 50px;
