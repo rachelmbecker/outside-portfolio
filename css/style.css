@@ -443,7 +443,7 @@ nav a:hover {
 }
 .publications-container {
         display: grid;
-        grid-template-columns: .02fr 1fr .02fr;
+        grid-template-columns: .08fr 1fr .08fr;
         grid-template-rows: 1.1fr .17fr .3fr .1fr .1fr .05fr;
         grid-column-gap: 20px;
     }
