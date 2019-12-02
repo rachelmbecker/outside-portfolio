@@ -712,31 +712,14 @@ nav a{
         text-align: justify;
     }
 
-    .projectimg1 {
-        width: 450px;
-        height: 300px;
+    .projectimg {
+        width: 100%;
+        height: auto;
+        border: 2px #aaaaaa solid;
 
     }
 
-    .projectimg2 {
-        width: 450px;
-        height: 300px;
-    }
-
-    .projectimg3 {
-        width: 450px;
-        height: 300px;
-    }
-
-    .projectimg4 {
-        width: 450px;
-        height: 300px;
-    }
-
-    .projectimg5 {
-        width: 450px;
-        height: 300px;
-    }
+    
 
     .student-container {
         display:grid;
