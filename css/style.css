@@ -139,9 +139,8 @@ nav a:hover {
 
 .content h2 {
     font-size: 40px;
-    margin-bottom: 0px;
-    text-shadow: 2px 2px #eaeaea;
-    color: #e98074;
+    padding-top: 20px;
+    color: #E85A4F;
 }
 
 /* .content2 {
