@@ -451,20 +451,12 @@ nav a:hover {
   grid-gap: 10px;
   padding-top:20px;
   padding-bottom: 20px;
-  grid-column: 2/span 1;
+  grid-column: 2/span 2;
   align-items: center;
 }
 .publication-content h2{
     background: white;
     padding: 10px;
-}
-.publication-content-right{
-  align-items: center;
-  grid-gap: 10px;
-  padding-top:20px;
-  padding-bottom: 20px;
-  grid-column: 3/span 1;
-  align-items: center;
 }
 .publication-content-right h2{
     background: white;
