@@ -443,9 +443,9 @@ nav a:hover {
 }
 .publications-container {
         display: grid;
-        grid-template-columns: .08fr 1fr .08fr;
+        grid-template-columns: .18fr 1fr .18fr;
         grid-template-rows: 1.1fr .17fr .3fr .1fr .1fr .05fr;
-        grid-column-gap: 20px;
+/*         grid-column-gap: 20px; */
     }
 
     .published {
