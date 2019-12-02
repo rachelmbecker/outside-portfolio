@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+href {
+    text-decoration: none;
+}
+
 body {
     background: #FFFFFF;
     font-size: 18px;
@@ -463,9 +467,9 @@ footer{
     grid-template-rows: 1fr;
 }
 
-.student-p{
+.student-p {
     grid-column: 2 / span 1;
-    background: white;
+    /* background: white; */
     color: black;
     padding-top: 10px;
     padding-bottom: 10px;
