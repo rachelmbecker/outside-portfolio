@@ -442,57 +442,119 @@ nav a:hover {
     color: #E85A4F;
 }
 .publications-container {
-  display: grid;
-  grid-template-columns: .25fr 1fr 1fr .25fr;
-  grid-row-gap: 15px;
-  grid-template-rows: 2fr;
-  grid-column-gap: 15px;
-  width: 100vw;
-}
-.publication-content{
-  align-items: center;
-  grid-gap: 10px;
-  padding-top:20px;
-  padding-bottom: 20px;
-  grid-column: 2/span 2;
-  align-items: center;
-}
-.publication-content h2{
-    background: white;
-    padding: 10px;
-}
-.publication-content-right h2{
-    background: white;
-    padding: 10px;
-}
-.publication-content-bottom{
-  align-items: center;
-  grid-gap: 10px;
-  padding-top:20px;
-  padding-bottom: 20px;
-  grid-column: 2/span 2;
-  align-items: center;
-  grid-row: 2;
-}
-.publication-content-bottom h2{
-    background: white;
-    padding: 10px;
-}
-.published ol{
-  padding-left: 50px;
-  font-size: 14px;
-}
-.tutorials-workshop ol{
-  padding-left: 50px;
-  font-size: 14px;
-}
+        display: grid;
+        grid-template-columns: .02fr 1fr .02fr;
+        grid-template-rows: 1.1fr .17fr .3fr .1fr .1fr .05fr;
+        grid-column-gap: 20px;
+    }
+
+    .published {
+        grid-column: 2;
+        grid-row:1;
+        border-bottom: 2px dotted black;
+    }
+
+    .published ol {
+        padding-left: 30px;
+        font-size: 15px;
+    }
+
+    .published li {
+        text-align: justify;
+
+    }
+
+    .published h2 {
+        font-size: 30px;
+        color: black;
+    }
+
+    .tutorials{
+        grid-column: 2;
+        grid-row: 2;
+        border-bottom: 2px dotted black;
+    }
+
+    .tutorials ol {
+        padding-left: 30px;
+        font-size: 15px;
+    }
+
+    .tutorials li{
+        text-align: justify;
+    }
+
+    .tutorials h2 {
+        font-size: 30px;
+        color: black;
+    }
+
+    .workshops {
+        grid-column: 2;
+        grid-row:3;
+        border-bottom: 2px dotted black;
+    }
+    .workshops ol {
+        padding-left: 30px;
+        font-size: 15px;
+    }
+    .workshops li {
+        text-align: justify;
+
+    }
+    .workshops h2 {
+        font-size: 30px;
+        color: black;
+    }
+
+
+    .technical {
+        grid-column: 2;
+        grid-row:4;
+        border-bottom: 2px dotted black;
+    }
+    .technical ol {
+        padding-left: 30px;
+        font-size: 15px;
+    }
+    .technical li {
+        text-align: justify;
+
+    }
+
+    .technical h2 {
+        font-size: 30px;
+        color: black;
+    }
+
+    .progress {
+        grid-column: 2;
+        grid-row:5;
+        border-bottom: 2px dotted black;
+    }
+    .progress ol {
+        padding-left: 30px;
+        font-size: 15px;
+    }
+
+    .progress {
+        text-align: justify;
+    }
+    .progress h2 {
+        font-size: 30px;
+        color: black;
+    }
+    .pub-index {
+        grid-row: 2;
+    }
+/* 
 .reports{
   grid-column: 1 / span 2;
 }
 .reports ol{
   padding-left: 50px;
   font-size: 14px;
-}
+} */
 .resume-container {
     display:grid;
     grid-template-columns: .5fr 3fr .5fr;
