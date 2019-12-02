@@ -424,6 +424,10 @@ nav a:hover {
 .student-p p {
     padding: 15px;
 }
+.student-p h2 {
+    font-size: 24px;
+    color: #E85A4F;
+}
 .publications-container {
     display:grid;
     grid-template-columns: 1fr;
