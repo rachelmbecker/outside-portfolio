@@ -35,12 +35,13 @@ body {
 }
 footer {
     background: #2f2f2f;
-    color: white;
+    color: #FFFFFF;
     text-align: center;
     border-top: 2px solid white;
     position: absolute;
     width: 100%;
     display: block;
+    padding-top: 5px;
     bottom: 0;
 }
 b {
@@ -611,7 +612,30 @@ nav a{
     }
 
 
-
+a.navi:link, a.navi:active, a.navi:visited {
+	display: block;
+	font-size: 10pt;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	height: 50px;
+	width: 95%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+	text-align: center;
+	color: #ffffff;
+	font-style: normal;
+	background-color: #ea5d5d;
+	text-decoration: none;
+	margin-bottom: 10px;
+	margin-top: 50px;
+    padding-top: 15px;
+	border: 2px #2f2f2f solid;
+}
+a.navi:hover {
+	background-color: #2f2f2f;
+	color: #ffffff;
+    transition: background-color 0.4s ease-in-out;
+}
 
 /* MEDIA QUERY 1 */
 
