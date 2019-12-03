@@ -1070,7 +1070,7 @@ a.navi:hover {
         }
 
         .published li {
-            text-align: left;
+            text-align: justify;
 
         }
 
@@ -1115,7 +1115,7 @@ a.navi:hover {
             font-size: 15px;
         }
         .workshops li {
-            text-align: left;
+            text-align: justify;
 
         }
         .workshops h2 {
@@ -1160,7 +1160,7 @@ a.navi:hover {
         }
 
         .progress {
-            text-align: left;
+            text-align: justify;
         }
         .progress h2 {
             font-size: 30px;
@@ -1181,7 +1181,7 @@ a.navi:hover {
         }
 
         .invited-talks {
-            text-align: left;
+            text-align: justify;
         }
         .invited-talks h2 {
             font-size: 30px;
@@ -1202,7 +1202,7 @@ a.navi:hover {
         }
 
         .reports {
-            text-align: left;
+            text-align: justify;
         }
         .reports h2 {
             font-size: 30px;
