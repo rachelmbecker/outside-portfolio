@@ -729,7 +729,7 @@ a.navi:hover {
         display: grid;
         grid-template-columns: .5fr 1fr 1fr .5fr;
         grid-row-gap: 15px;
-        grid-template-rows: .8fr .1fr 1fr 0.5fr .4fr .05fr;
+        grid-template-rows: .9fr .1fr 1fr 0.5fr .4fr .05fr;
         grid-column-gap: 15px;
         width: 100vw;
     }
