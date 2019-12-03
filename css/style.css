@@ -48,7 +48,7 @@ b {
     color: #E85A4F;
 }
 a {
-    color: #1344b9;
+    color: #803333;
     text-decoration:none;
 }
 h1 {
@@ -226,16 +226,12 @@ nav a{
     padding: 15px;
 }
 
-.student-p h2 {
+.student-p h1 {
     font-size: 30px;
     color: black;
     text-align: center;
 }
 
-/* .student-index {
-    grid-row: 2;
-    grid-column: 1 / span 3;
-} */
 
 .prospective {
     grid-row: 2 /span 1;
@@ -250,7 +246,7 @@ nav a{
     padding: 15px;
 }
 
-.prospective h2 {
+.prospective h1 {
     font-size: 30px;
     color: black;
     text-align: center;
@@ -1091,22 +1087,32 @@ a.navi:hover {
         grid-row: 1/span 1;
         /* background: white; */
         color: black;
+        margin-top: 20px;
+        padding: 10px;
     }
     .student-p p {
         padding-top: 15px;
         padding-bottom: 15px;
     }
-    .student-p h2 {
-        font-size: 24px;
-        color: black;
+    .student-p h1 {
+       font-size: 30px;
+        text-align: center;
+	color: #FFFFFF;
+        width: 200px;
+        background: #803333;
     }
     .prospective{
 	grid-column: 2 / span 1;
         grid-row: 2/span 1;
+        margin-top: 20px;
+        padding: 10px;
     }
-    .prospective h2 {
-	font-size: 24px;
-	color: black;
+    .prospective h1 {
+        text-align: center;
+	font-size: 30px;
+	color: #FFFFFF;
+        width: 400px;
+        background: #803333;
     }
 
     .student-footer {
