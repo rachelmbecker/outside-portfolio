@@ -322,7 +322,7 @@ p{
 
             margin-top: 20px;
             margin-bottom: 20px;
-            padding: 20px;
+            padding: 15px;
 
             border: 1px #2f2f2f solid;
 
@@ -352,7 +352,7 @@ p{
             grid-row: 2;
 
             margin-bottom: 20px;
-            padding: 20px;
+            padding: 15px;
             border: 1px #2f2f2f solid;
         }
 
@@ -378,7 +378,7 @@ p{
             grid-row:3;
 
             margin-bottom: 20px;
-            padding: 20px;
+            padding: 15px;
             border: 1px #2f2f2f solid;
         }
         .workshops ol {
@@ -404,7 +404,7 @@ p{
             grid-row:4;
 
             margin-bottom: 20px;
-            padding: 20px;
+            padding: 15px;
             border: 1px #2f2f2f solid;
         }
         .technical ol {
@@ -430,7 +430,7 @@ p{
             grid-row:5;
 
             margin-bottom: 20px;
-            padding: 20px;
+            padding: 15px;
             border: 1px #2f2f2f solid;
         }
         .progress ol {
@@ -455,7 +455,7 @@ p{
             grid-row:6;
 
             margin-bottom: 20px;
-            padding: 20px;
+            padding: 15px;
             border: 1px #2f2f2f solid;
         }
         .invited-talks ol {
@@ -479,7 +479,7 @@ p{
             grid-row:7;
 
             margin-bottom: 20px;
-            padding: 20px;
+            padding: 15px;
             border: 1px #2f2f2f solid;
         }
         .reports ol {
