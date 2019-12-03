@@ -242,7 +242,7 @@ nav a{
  .publications-container {
             display: grid;
             grid-template-columns: .18fr 1fr .18fr;
-            grid-template-rows: 0.9fr .17fr .3fr .1fr .1fr .05fr;
+            grid-template-rows: 0.9fr .17fr .3fr .1fr .1fr .3fr .5fr .05fr;
     /*         grid-column-gap: 20px; */
      
         }
@@ -358,6 +358,48 @@ nav a{
             text-align: left;
         }
         .progress h2 {
+            font-size: 30px;
+            color: black;
+        }
+
+	.invited-talks {
+            grid-column: 2;
+            grid-row:6;
+    
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px #2f2f2f solid;
+        }
+        .invited-talks ol {
+            padding-left: 30px;
+            font-size: 15px;
+        }
+
+        .invited-talks {
+            text-align: left;
+        }
+        .invited-talks h2 {
+            font-size: 30px;
+            color: black;
+        }
+
+	.reports {
+            grid-column: 2;
+            grid-row:7;
+    
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px #2f2f2f solid;
+        }
+        .reports ol {
+            padding-left: 30px;
+            font-size: 15px;
+        }
+
+        .reports {
+            text-align: left;
+        }
+        .reports h2 {
             font-size: 30px;
             color: black;
         }
@@ -1233,7 +1275,7 @@ a.navi:hover {
 	text-align: center;
 	color: #ffffff;
 	font-style: normal;
-	background-color: #e42d2d;
+	background-color: #ea5d5d;
 	text-decoration: none;
 	margin-bottom: 10px;
 	margin-top: 50px;
@@ -1241,7 +1283,7 @@ a.navi:hover {
 	border: 2px #2f2f2f solid;
 }
 a.navi:hover {
-	background-color: #000000;
+	background-color: #2f2f2f;
 	color: #ffffff;
     transition: background-color 0.4s ease-in-out;
 }
