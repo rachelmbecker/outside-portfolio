@@ -211,7 +211,7 @@ nav a{
 .student-container {
     display:grid;
     grid-template-columns: .2fr 3fr .2fr;
-    grid-template-rows: 1fr .5fr;
+    grid-template-rows: 1fr .7fr;
 	grid-row-gap: 15px;
 }
 
@@ -851,10 +851,7 @@ a.navi:hover {
         color: black;
         text-align:center;
     }
-
-
-
-
+	
     .index-head2 {
         grid-column: 1 / span 4;
         grid-row: 1/span 3;
@@ -867,7 +864,6 @@ a.navi:hover {
         display: block;
     }
 
-
     .index-footer {
         grid-row: 4;
         grid-column: 1 / span 4;
@@ -877,9 +873,7 @@ a.navi:hover {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 45px 30px 10px 75px 1px;
-
     }
-
 
     .all-nav{
         grid-column: 1;
@@ -904,8 +898,6 @@ a.navi:hover {
         padding-left: 30px;
 
     }
-
-
 
     /* PROJECTS */
 
@@ -1080,7 +1072,7 @@ a.navi:hover {
     .student-container {
         display:grid;
         grid-template-columns: .5fr 3fr .5fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr .7fr;
     }
 
     .student-p {
@@ -1088,10 +1080,6 @@ a.navi:hover {
         grid-row: 1/span 1;
         /* background: white; */
         color: black;
-    /*     padding-top: 10px;
-        padding-bottom: 10px; */
-    /*     padding-right: 5%;
-        padding-left: 5%; */
     }
     .student-p p {
         padding-top: 15px;
@@ -1104,6 +1092,10 @@ a.navi:hover {
     .prospective{
 	grid-column: 2 / span 1;
         grid-row: 2/span 1;
+    }
+    .prospective h2 {
+	font-size: 24px;
+	color: black;
     }
 
     .student-footer {
