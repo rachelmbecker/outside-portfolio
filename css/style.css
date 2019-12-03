@@ -206,9 +206,7 @@ nav a{
     background-repeat: no-repeat;
     background-size: cover;
     display: none;
-
 }
-
 
 .student-container {
     display:grid;
@@ -217,31 +215,45 @@ nav a{
 }
 
 .student-p {
-    grid-column: 1 / span 1;
+    grid-column: 2 / span 1;
     color: black;
     text-align: justify;
 }
-.student-p p {
 
+.student-p p {
     padding: 15px;
 }
+
 .student-p h2 {
     font-size: 30px;
     color: black;
     text-align: center;
 }
-.student-index {
+
+/* .student-index {
     grid-row: 2;
     grid-column: 1 / span 3;
-}
+} */
 
 .prospective {
-	grid-row: 2 /span 1;
+    grid-row: 2 /span 1;
     grid-column: 2 / span 1;
     color: black;
     /* background-color: white; */
     text-align: justify;
 }
+
+.prospective p {
+    padding: 15px;
+}
+
+.prospective h2 {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+	
+
  .student-footer {
          grid-row: 3/span 1;
          grid-column: 1 / span 4;
