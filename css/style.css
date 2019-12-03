@@ -48,7 +48,7 @@ b {
     color: #E85A4F;
 }
 a {
-    color: #E85A4F;
+    color: #1344b9;
     text-decoration:none;
 }
 h1 {
@@ -729,7 +729,7 @@ a.navi:hover {
         display: grid;
         grid-template-columns: .5fr 1fr 1fr .5fr;
         grid-row-gap: 15px;
-        grid-template-rows: .8fr .1fr 1fr 0.5fr .4fr 1fr .05fr;
+        grid-template-rows: .8fr .1fr 0.6fr 0.3fr .2fr 1.5fr .05fr;
         grid-column-gap: 15px;
         width: 100vw;
     }
@@ -746,6 +746,7 @@ a.navi:hover {
         padding-bottom: 50px;
         border: 1px solid #000000;
         margin-bottom: 100px;
+        margin-top: 30px;
         
     }
 
