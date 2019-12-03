@@ -6,6 +6,9 @@
         <link rel="stylesheet" type="text/css" href="css/html5reset.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Ceren Budak</title>
     </head>
 <body>
@@ -21,6 +24,25 @@
         
          
         <div class="all-nav">
+   
+        <nav><div class="topnav"><br>
+            <div class="active"></div>
+  <div id="myLinks">
+   <a href="index.html" class="current">Home</a>
+                    <a href="publications.html">Works</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="students.html">Students</a>
+                    <a href="resume.html">CV</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div></nav>
+
+
+
+            
+            
             <nav>
                 <ul>
                     <li><a href="index.html" class="current">Home</a></li>
@@ -66,6 +88,18 @@
         
     </div>
     </main> 
+    
+    <script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
   </body>
 </html>
 
