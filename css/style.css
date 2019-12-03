@@ -1070,7 +1070,7 @@ a.navi:hover {
     .student-container {
         display:grid;
         grid-template-columns: .5fr 3fr .5fr;
-        grid-template-rows: 1fr .7fr;
+        grid-template-rows: 1fr .5fr .50fr;
     }
 
     .student-p {
