@@ -1037,18 +1037,21 @@ a.navi:hover {
     .publications-container {
             display: grid;
             grid-template-columns: .18fr 1fr .18fr;
-            grid-template-rows: 1.1fr .17fr .3fr .1fr .1fr .05fr;
+            grid-template-rows: 0.9fr .17fr .3fr .1fr .1fr .3fr .5fr .05fr;
     /*         grid-column-gap: 20px; */
-
+     
         }
 
         .published {
             grid-column: 2;
             grid-row:1;
-            border-bottom: 2px dotted black;
+
             margin-top: 20px;
             margin-bottom: 20px;
-            padding-bottom: 20px;
+            padding: 20px;
+            
+            border: 1px #2f2f2f solid;
+            
         }
 
         .published ol {
@@ -1057,7 +1060,7 @@ a.navi:hover {
         }
 
         .published li {
-            text-align: justify;
+            text-align: left;
 
         }
 
@@ -1069,9 +1072,10 @@ a.navi:hover {
         .tutorials{
             grid-column: 2;
             grid-row: 2;
-            border-bottom: 2px dotted black;
+    
             margin-bottom: 20px;
-            padding-bottom: 20px;
+            padding: 20px;
+            border: 1px #2f2f2f solid;
         }
 
         .tutorials ol {
@@ -1091,16 +1095,17 @@ a.navi:hover {
         .workshops {
             grid-column: 2;
             grid-row:3;
-            border-bottom: 2px dotted black;
+    
             margin-bottom: 20px;
-            padding-bottom: 20px;
+            padding: 20px;
+            border: 1px #2f2f2f solid;
         }
         .workshops ol {
             padding-left: 30px;
             font-size: 15px;
         }
         .workshops li {
-            text-align: justify;
+            text-align: left;
 
         }
         .workshops h2 {
@@ -1112,9 +1117,10 @@ a.navi:hover {
         .technical {
             grid-column: 2;
             grid-row:4;
-            border-bottom: 2px dotted black;
+            
             margin-bottom: 20px;
-            padding-bottom: 20px;
+            padding: 20px;
+            border: 1px #2f2f2f solid;
         }
         .technical ol {
             padding-left: 30px;
@@ -1133,9 +1139,10 @@ a.navi:hover {
         .progress {
             grid-column: 2;
             grid-row:5;
-            border-bottom: 2px dotted black;
-            margin-bottom: 40px;
-            padding-bottom: 20px;
+    
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px #2f2f2f solid;
         }
         .progress ol {
             padding-left: 30px;
@@ -1143,9 +1150,51 @@ a.navi:hover {
         }
 
         .progress {
-            text-align: justify;
+            text-align: left;
         }
         .progress h2 {
+            font-size: 30px;
+            color: black;
+        }
+
+	.invited-talks {
+            grid-column: 2;
+            grid-row:6;
+    
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px #2f2f2f solid;
+        }
+        .invited-talks ol {
+            padding-left: 30px;
+            font-size: 15px;
+        }
+
+        .invited-talks {
+            text-align: left;
+        }
+        .invited-talks h2 {
+            font-size: 30px;
+            color: black;
+        }
+
+	.reports {
+            grid-column: 2;
+            grid-row:7;
+    
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px #2f2f2f solid;
+        }
+        .reports ol {
+            padding-left: 30px;
+            font-size: 15px;
+        }
+
+        .reports {
+            text-align: left;
+        }
+        .reports h2 {
             font-size: 30px;
             color: black;
         }
