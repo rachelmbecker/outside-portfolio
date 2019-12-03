@@ -158,13 +158,6 @@ nav a{
 .content{
     grid-column: 2/span 1;
     grid-row: 1/span 2;
-/*     align-items: center;
-    background: white;
-    color: black;
-    text-align: justify;
-    padding-right: 5%;
-    padding-left: 5%;
-    padding-bottom: 50px; */
 	align-items: center;
         background: transparent;
         color: black;
@@ -220,13 +213,12 @@ nav a{
 .student-container {
     display:grid;
     grid-template-columns: .2fr 3fr .2fr;
-    grid-template-rows: 1fr .05fr 0.2fr;
+    grid-template-rows: 1fr .5fr 0.2fr;
 }
 
 .student-p {
     grid-column: 1 / span 1;
     color: black;
-    /* background-color: white; */
     text-align: justify;
 }
 .student-p p {
@@ -244,6 +236,7 @@ nav a{
 }
 
 .prospective {
+	grid-row: 2 /span 1;
     grid-column: 2 / span 1;
     color: black;
     /* background-color: white; */
