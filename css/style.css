@@ -1113,8 +1113,8 @@ a.navi:hover {
         }
 
         .published ol {
-            padding-left: 30px;
             font-size: 15px;
+            padding-left: 15px;
         }
 
         .published li {
@@ -1125,6 +1125,8 @@ a.navi:hover {
         .published h2 {
             font-size: 30px;
             color: black;
+            text-align: center;
+
         }
 
         .tutorials{
@@ -1137,8 +1139,8 @@ a.navi:hover {
         }
 
         .tutorials ol {
-            padding-left: 30px;
             font-size: 15px;
+            padding-left: 15px;
         }
 
         .tutorials li{
@@ -1148,6 +1150,8 @@ a.navi:hover {
         .tutorials h2 {
             font-size: 30px;
             color: black;
+            text-align: center;
+
         }
 
         .workshops {
@@ -1159,8 +1163,8 @@ a.navi:hover {
             border: 1px #2f2f2f solid;
         }
         .workshops ol {
-            padding-left: 30px;
             font-size: 15px;
+            padding-left: 15px;
         }
         .workshops li {
             text-align: justify;
@@ -1169,6 +1173,8 @@ a.navi:hover {
         .workshops h2 {
             font-size: 30px;
             color: black;
+            text-align: center;
+
         }
 
 
@@ -1181,7 +1187,7 @@ a.navi:hover {
             border: 1px #2f2f2f solid;
         }
         .technical ol {
-            padding-left: 30px;
+            padding-left: 15px;
             font-size: 15px;
         }
         .technical li {
@@ -1192,6 +1198,8 @@ a.navi:hover {
         .technical h2 {
             font-size: 30px;
             color: black;
+            text-align: center;
+
         }
 
         .progress {
@@ -1203,7 +1211,7 @@ a.navi:hover {
             border: 1px #2f2f2f solid;
         }
         .progress ol {
-            padding-left: 30px;
+            padding-left: 15px;
             font-size: 15px;
         }
 
@@ -1213,6 +1221,8 @@ a.navi:hover {
         .progress h2 {
             font-size: 30px;
             color: black;
+            text-align: center;
+
         }
 
 	.invited-talks {
@@ -1224,7 +1234,7 @@ a.navi:hover {
             border: 1px #2f2f2f solid;
         }
         .invited-talks ol {
-            padding-left: 30px;
+            padding-left: 15px;
             font-size: 15px;
         }
 
@@ -1234,6 +1244,8 @@ a.navi:hover {
         .invited-talks h2 {
             font-size: 30px;
             color: black;
+            text-align: center;
+
         }
 
 	.reports {
@@ -1245,7 +1257,7 @@ a.navi:hover {
             border: 1px #2f2f2f solid;
         }
         .reports ol {
-            padding-left: 30px;
+            padding-left: 15px;
             font-size: 15px;
         }
 
@@ -1255,6 +1267,7 @@ a.navi:hover {
         .reports h2 {
             font-size: 30px;
             color: black;
+            text-align: center;
         }
         .pub-index {
             grid-row: 2;
