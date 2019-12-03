@@ -61,6 +61,7 @@ h1 {
     /* width: 300px; */
 }
 h2 {
+    font-size: 24px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -645,7 +646,8 @@ nav a{
         padding-bottom: 10px;
     }
     .resume-content h2{
-        background: white;
+         color: #000000;
+        border-bottom: 1px solid #803333;
         padding: 10px;
     }
     .resume-content p {
@@ -663,7 +665,8 @@ nav a{
         font-size: 14px;
     }
     .resume-content2 h2 {
-        background: white;
+         color: #000000;
+        border-bottom: 1px solid #803333;
         padding: 10px;
     }
     .resume-content3{
@@ -673,8 +676,9 @@ nav a{
         padding-bottom: 10px;
     }
     .resume-content3 h2{
-      background: white;
-      padding: 10px;
+     color: #000000;
+        border-bottom: 1px solid #803333;
+        padding: 10px;
     }
     .resume-content3 h3{
       font-size: 16px;
@@ -701,8 +705,9 @@ nav a{
         margin-bottom: 100px;
     }
     .resume-content4 h2{
-      background: white;
-      padding: 10px;
+      color: #000000;
+        border-bottom: 1px solid #803333;
+        padding: 10px;
     }
     .resume-content4 h3{
       font-size: 16px;
@@ -1388,88 +1393,7 @@ a.navi:hover {
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    .resume-content h2{
-        background: white;
-        padding: 10px;
-    }
-    .resume-content p {
-        padding: 10px;
-        font-size: 14px;
-    }
-    .resume-content2{
-        grid-column: 2 / span 1;
-        color: black;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .resume-content2 p {
-        padding: 10px;
-        font-size: 14px;
-    }
-    .resume-content2 h2 {
-        background: white;
-        padding: 10px;
-    }
-    .resume-content3{
-        grid-column: 2 / span 1;
-        color: black;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .resume-content3 h2{
-      background: white;
-      padding: 10px;
-    }
-    .resume-content3 h3{
-      font-size: 16px;
-      padding: 10px;
-
-    }
-    .resume-content3 p{
-        padding: 10px;
-        font-size: 14px;
-        padding-top: 0px;
-        padding-bottom: 15px;
-    }
-    .resume-content3 ul{
-        padding-left: 50px;
-        font-size: 14px;
-        padding-bottom: 20px;
-
-    }
-    .resume-content4{
-        grid-column: 2 / span 1;
-        color: black;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .resume-content4 h2{
-      background: white;
-      padding: 10px;
-    }
-    .resume-content4 h3{
-      font-size: 16px;
-      padding: 10px;
-
-    }
-    .resume-content4 p{
-        padding: 10px;
-        font-size: 14px;
-        padding-top: 0px;
-        padding-bottom: 15px;
-    }
-    .resume-content4 ul{
-        padding-left: 50px;
-        font-size: 14px;
-        padding-bottom: 20px;
-
-    }
-    .right-content p{
-      padding: 10px;
-      font-size: 14px;
-      font-style: italic;
-    }
-
+    
 
     a.navi:link, a.navi:active, a.navi:visited {
 	display: block;
