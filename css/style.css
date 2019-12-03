@@ -48,13 +48,13 @@ b {
     color: #E85A4F;
 }
 a {
-    color: #1344B9;
+    color: #E85A4F;
     text-decoration:none;
 }
 h1 {
     font-size: 50px;
     line-height: 1;
-    border: 1px solid white;
+    
     text-align: center;
     color: #FFFFFF;
     /* width: 300px; */
@@ -165,7 +165,7 @@ nav a{
     padding-right: 5%;
     padding-left: 5%;
     padding-bottom: 50px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+    
 }
 
 .stuff {
@@ -729,22 +729,24 @@ a.navi:hover {
         display: grid;
         grid-template-columns: .5fr 1fr 1fr .5fr;
         grid-row-gap: 15px;
-        grid-template-rows: .9fr .1fr 1fr 0.5fr .4fr .05fr;
+        grid-template-rows: .8fr .1fr 1fr 0.5fr .4fr 1fr .05fr;
         grid-column-gap: 15px;
         width: 100vw;
     }
 
     .content{
         grid-column: 2/span 2;
-        grid-row: 3/span 3;
+        grid-row: 4/span 3;
         align-items: center;
-        background: white;
+        background: transparent;
         color: black;
         text-align: justify;
         padding-right: 5%;
         padding-left: 5%;
         padding-bottom: 50px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+        border: 1px solid #000000;
+        margin-bottom: 100px;
+        
     }
 
     .stuff {
@@ -765,7 +767,7 @@ a.navi:hover {
 
     .index-head2 {
         grid-column: 1 / span 4;
-        grid-row: 1/span 2;
+        grid-row: 1/span 3;
         background: #FFFFFF;
         background-attachment: fixed;
         background-image: url('../images/michigan.png');
