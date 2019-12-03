@@ -1233,7 +1233,7 @@ a.navi:hover {
 	text-align: center;
 	color: #ffffff;
 	font-style: normal;
-	background-color: #ea5d5d;
+	background-color: #e42d2d;
 	text-decoration: none;
 	margin-bottom: 10px;
 	margin-top: 50px;
@@ -1241,7 +1241,7 @@ a.navi:hover {
 	border: 2px #2f2f2f solid;
 }
 a.navi:hover {
-	background-color: #2f2f2f;
+	background-color: #000000;
 	color: #ffffff;
     transition: background-color 0.4s ease-in-out;
 }
