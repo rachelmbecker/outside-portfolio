@@ -218,6 +218,7 @@ nav a{
     grid-column: 2 / span 1;
     color: black;
     text-align: justify;
+    border: 1px solid black;
 }
 
 .student-p p {
