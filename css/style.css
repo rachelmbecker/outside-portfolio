@@ -851,7 +851,6 @@ a.navi:hover {
         color: black;
         text-align:center;
     }
-	
     .index-head2 {
         grid-column: 1 / span 4;
         grid-row: 1/span 3;
