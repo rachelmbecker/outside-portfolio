@@ -171,8 +171,6 @@ nav a{
 
 .img {
     width: 100%;
-    
-    /* margin-right: 30px; */
     border: 2px white solid;
     border-radius: 5px;
     border: 2px solid #eeeeee;
@@ -215,6 +213,9 @@ nav a{
 
 }
 
+p{
+    font-size: 14px;
+}
 .stuff {
     text-align: center;
 }
@@ -269,6 +270,7 @@ nav a{
 
 .student-p p {
     padding: 15px;
+    
 }
 
 .student-p h1 {
@@ -809,7 +811,11 @@ a.navi:hover {
   background-color: #2f2f2f;
   position: relative;
 }
-
+p{
+    font-size: 18px;
+}
+    
+    
 .topnav #myLinks {
   display: none;
 }

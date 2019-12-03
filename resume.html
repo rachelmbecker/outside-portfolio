@@ -6,6 +6,9 @@
         <link rel="stylesheet" type="text/css" href="css/html5reset.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Ceren Budak</title>
     </head>
 <body>
@@ -21,6 +24,22 @@
         
          
         <div class="all-nav">
+            
+             <nav><div class="topnav"><br>
+            <div class="active"></div>
+  <div id="myLinks">
+   <a href="index.html" class="current">Home</a>
+                    <a href="publications.html">Works</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="students.html">Students</a>
+                    <a href="resume.html"  class="current">CV</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div></nav>
+            
+            
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -54,13 +73,13 @@
           </div>
 
           <div class="resume-content2">
-              <h1>Research Interests</h1>
+              <h2>Research Interests</h2>
               <p> My research interests lie in the area of computational social science, a discipline at the intersection of computer science, statistics, and the social sciences. I am particularly interested in applying large scale data analysis techniques to study problems with social, political, and policy implications.
               </p>
           </div>
 
           <div class="resume-content3">
-              <h1>Education</h1>
+              <h2>Education</h2>
               <div class="inner-content">
                 <div>
                   <h3>PhD. in Computer Science</h3>
@@ -98,7 +117,7 @@
           </div>
 
           <div class="resume-content4">
-              <h1>Employment</h1>
+              <h2>Employment</h2>
               <!-- Assistant Professor -->
                 <div class="inner-content">
                   <div>
@@ -257,5 +276,15 @@
           </footer>
 
       </main>
+     <script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
     </body>
   </html>
