@@ -242,6 +242,7 @@ nav a{
     color: black;
     /* background-color: white; */
     text-align: justify;
+    border: 1px solid black;
 }
 
 .prospective p {
