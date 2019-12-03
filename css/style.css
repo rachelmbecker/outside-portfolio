@@ -242,7 +242,7 @@ nav a{
  .publications-container {
             display: grid;
             grid-template-columns: .18fr 1fr .18fr;
-            grid-template-rows: 0.9fr .17fr .3fr .1fr .1fr .3fr .3fr .05fr;
+            grid-template-rows: 0.9fr .17fr .3fr .1fr .1fr .3fr .1fr .05fr;
     /*         grid-column-gap: 20px; */
      
         }
@@ -1037,7 +1037,7 @@ a.navi:hover {
     .publications-container {
             display: grid;
             grid-template-columns: .18fr 1fr .18fr;
-            grid-template-rows: 0.9fr .17fr .3fr .1fr .1fr .3fr .9fr .05fr;
+            grid-template-rows: 0.9fr .17fr .3fr .1fr .1fr .3fr .1fr .05fr;
     /*         grid-column-gap: 20px; */
      
         }
