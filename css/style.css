@@ -275,7 +275,8 @@ nav a{
         }
 
         .published li {
-            text-align: left;
+/*             text-align: left; */
+		text-align: justify;
 
         }
 
@@ -320,7 +321,7 @@ nav a{
             font-size: 15px;
         }
         .workshops li {
-            text-align: left;
+            text-align: justify;
 
         }
         .workshops h2 {
@@ -365,7 +366,7 @@ nav a{
         }
 
         .progress {
-            text-align: left;
+            text-align: justify;
         }
         .progress h2 {
             font-size: 30px;
@@ -386,7 +387,7 @@ nav a{
         }
 
         .invited-talks {
-            text-align: left;
+            text-align: justify;
         }
         .invited-talks h2 {
             font-size: 30px;
@@ -407,7 +408,7 @@ nav a{
         }
 
         .reports {
-            text-align: left;
+            text-align: justify;
         }
         .reports h2 {
             font-size: 30px;
