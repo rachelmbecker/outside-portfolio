@@ -52,11 +52,12 @@ a {
     text-decoration:none;
 }
 h1 {
-    font-size: 50px;
-    line-height: 1;
-
-    text-align: center;
-    color: #FFFFFF;
+     text-align: center;
+	   font-size: 30px;
+	   color: #FFFFFF;
+        background: #803333;
+            margin-bottom: 5px;
+    padding: 10px;
     /* width: 300px; */
 }
 h2 {
@@ -176,11 +177,12 @@ nav a{
 }
 
 .content h1 {
-    font-size: 50px;
-    padding-top: 20px;
-    padding-bottom: 0px;
-    color: black;
-    text-align:center;
+     text-align: center;
+	   font-size: 30px;
+	   color: #FFFFFF;
+        background: #803333;
+            margin-bottom: 5px;
+    margin-top: 10px;
 }
 
 .content h2 {
@@ -227,9 +229,11 @@ nav a{
 }
 
 .student-p h1 {
-    font-size: 30px;
-    color: black;
     text-align: center;
+	font-size: 30px;
+	color: #FFFFFF;
+        width: 400px;
+        background: #803333;
 }
 
 
@@ -247,9 +251,11 @@ nav a{
 }
 
 .prospective h1 {
-    font-size: 30px;
-    color: black;
-    text-align: center;
+   text-align: center;
+	font-size: 30px;
+	color: #FFFFFF;
+        width: 400px;
+        background: #803333;
 }
 
 /*  .student-footer {
@@ -288,10 +294,12 @@ nav a{
 
         }
 
-        .published h2 {
-            font-size: 30px;
-            color: black;
+        .published h1 {
             text-align: center;
+	   font-size: 30px;
+	   color: #FFFFFF;
+        background: #803333;
+            margin-bottom: 5px;
         }
 
         .tutorials{
@@ -312,11 +320,12 @@ nav a{
             text-align: justify;
         }
 
-        .tutorials h2 {
-            font-size: 30px;
-            color: black;
-            text-align: center;
-
+        .tutorials h1 {
+             text-align: center;
+	   font-size: 30px;
+	   color: #FFFFFF;
+        background: #803333;
+            margin-bottom: 5px;
         }
 
         .workshops {
@@ -335,10 +344,12 @@ nav a{
             text-align: justify;
 
         }
-        .workshops h2 {
-            font-size: 30px;
-            color: black;
-            text-align: center;
+        .workshops h1 {
+             text-align: center;
+	   font-size: 30px;
+	   color: #FFFFFF;
+        background: #803333;
+            margin-bottom: 5px;
 
         }
 
@@ -360,10 +371,12 @@ nav a{
 
         }
 
-        .technical h2 {
-            font-size: 30px;
-            color: black;
-            text-align: center;
+        .technical h1 {
+             text-align: center;
+	   font-size: 30px;
+	   color: #FFFFFF;
+        background: #803333;
+            margin-bottom: 5px;
 
         }
 
@@ -383,10 +396,12 @@ nav a{
         .progress {
             text-align: justify;
         }
-        .progress h2 {
-            font-size: 30px;
-            color: black;
-            text-align: center;
+        .progress h1 {
+             text-align: center;
+	   font-size: 30px;
+	   color: #FFFFFF;
+        background: #803333;
+            margin-bottom: 5px;
 
         }
 
@@ -406,11 +421,12 @@ nav a{
         .invited-talks {
             text-align: justify;
         }
-        .invited-talks h2 {
-            font-size: 30px;
-            color: black;
-            text-align: center;
-
+        .invited-talks h1 {
+             text-align: center;
+	   font-size: 30px;
+	   color: #FFFFFF;
+        background: #803333;
+            margin-bottom: 5px;
         }
 
 	.reports {
@@ -429,10 +445,12 @@ nav a{
         .reports {
             text-align: justify;
         }
-        .reports h2 {
-            font-size: 30px;
-            color: black;
+        .reports h1 {
             text-align: center;
+	   font-size: 30px;
+	   color: #FFFFFF;
+        background: #803333;
+            margin-bottom: 5px;
 
         }
         .pub-index {
@@ -622,6 +640,7 @@ nav a{
     .resume-content{
         grid-column: 2 / span 1;
         color: black;
+        margin-top: 10px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
@@ -679,7 +698,7 @@ nav a{
         color: black;
         padding-top: 10px;
         padding-bottom: 10px;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
     .resume-content4 h2{
       background: white;
@@ -695,6 +714,7 @@ nav a{
         font-size: 14px;
         padding-top: 0px;
         padding-bottom: 15px;
+        
     }
     .resume-content4 ul{
         padding-left: 50px;
@@ -721,7 +741,7 @@ a.navi:link, a.navi:active, a.navi:visited {
 	text-align: center;
 	color: #ffffff;
 	font-style: normal;
-	background-color: #ea5d5d;
+	background-color: #803333;
 	text-decoration: none;
 	margin-bottom: 10px;
 	margin-top: 50px;
@@ -1278,7 +1298,7 @@ a.navi:hover {
             grid-column: 2;
             grid-row:7;
 
-            margin-bottom: 20px;
+            margin-bottom: 40px;
             padding: 20px;
             border: 1px #2f2f2f solid;
         }
@@ -1421,7 +1441,7 @@ a.navi:hover {
 	text-align: center;
 	color: #ffffff;
 	font-style: normal;
-	background-color: #ea5d5d;
+	background-color: #803333;
 	text-decoration: none;
 	margin-bottom: 10px;
 	margin-top: 50px;
