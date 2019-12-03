@@ -136,7 +136,7 @@ nav a{
 .nav-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 50px 90px 40px;
+    grid-template-rows: 50px 50px 40px;
 }
 
 
