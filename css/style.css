@@ -211,7 +211,8 @@ nav a{
 .student-container {
     display:grid;
     grid-template-columns: .2fr 3fr .2fr;
-    grid-template-rows: 1fr .5fr 0.2fr;
+    grid-template-rows: 1fr .5fr;
+	grid-row-gap: 15px;
 }
 
 .student-p {
@@ -256,10 +257,10 @@ nav a{
 }
 	
 
- .student-footer {
+/*  .student-footer {
          grid-row: 3/span 1;
          grid-column: 1 / span 4;
-    }
+    } */
 
  .publications-container {
             display: grid;
