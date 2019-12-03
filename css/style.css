@@ -224,7 +224,7 @@ nav a{
 }
 
 .student-p {
-    grid-column: 2 / span 1;
+    grid-column: 1 / span 1;
     color: black;
     /* background-color: white; */
     text-align: justify;
@@ -243,7 +243,12 @@ nav a{
     grid-column: 1 / span 3;
 }
 
-
+.prospective {
+    grid-column: 2 / span 1;
+    color: black;
+    /* background-color: white; */
+    text-align: justify;
+}
  .student-footer {
          grid-row: 3/span 1;
          grid-column: 1 / span 4;
@@ -1067,12 +1072,12 @@ a.navi:hover {
     .student-container {
         display:grid;
         grid-template-columns: .5fr 3fr .5fr;
-        grid-template-rows: 1fr 2fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
     }
 
     .student-p {
         grid-column: 2 / span 1;
-        grid-row: 1/span 3;
+        grid-row: 1/span 1;
         /* background: white; */
         color: black;
     /*     padding-top: 10px;
@@ -1087,6 +1092,10 @@ a.navi:hover {
     .student-p h2 {
         font-size: 24px;
         color: black;
+    }
+    .prospective{
+	grid-column: 2 / span 1;
+        grid-row: 2/span 1;
     }
 
     .student-footer {
