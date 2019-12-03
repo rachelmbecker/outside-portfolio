@@ -1216,6 +1216,32 @@ a.navi:hover {
       font-size: 14px;
       font-style: italic;
     }
+    
+    
+    a.navi:link, a.navi:active, a.navi:visited {
+	display: block;
+	font-size: 10pt;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	height: 50px;
+	width: 95%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+	text-align: center;
+	color: #ffffff;
+	font-style: normal;
+	background-color: #ea5d5d;
+	text-decoration: none;
+	margin-bottom: 10px;
+	margin-top: 50px;
+    padding-top: 15px;
+	border: 2px #2f2f2f solid;
+}
+a.navi:hover {
+	background-color: #2f2f2f;
+	color: #ffffff;
+    transition: background-color 0.4s ease-in-out;
+}
 }
 
 @media screen and (prefers-reduced-motion: reduce){
